@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - run: mvn package
-      - run: java -jar target/app.jar
+      - run: java -jar target/shoe-ShoppingCart-0.0.1-SNAPSHOT.jar
