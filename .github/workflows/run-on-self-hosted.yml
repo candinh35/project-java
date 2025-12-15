@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - run: mvn clean install
-      - run: java -jar target/shoe-ShoppingCart-0.0.1-SNAPSHOT.jar
+      - run: nohup java -jar target/shoe-ShoppingCart-0.0.1-SNAPSHOT.jar > app.log 2>&1 &
