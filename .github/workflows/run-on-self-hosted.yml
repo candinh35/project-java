@@ -12,5 +12,5 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
 
-      - run: mvn package
+      - run: mvn clean install
       - run: java -jar target/shoe-ShoppingCart-0.0.1-SNAPSHOT.jar
